@@ -15,7 +15,7 @@ def main():
   
   primary_color = input("Insert primary color (red / blue / yellow): ")
 
-  primary_color = primary_color.lower() # The color wheel is based on the basic color wheel: https://www.usability.gov/how-to-and-tools/methods/color-basics.html"""
+  primary_color = primary_color.lower() # The color wheel is based on the basic color wheel: https://www.usability.gov/how-to-and-tools/methods/color-basics.html
 
   complementary_color(primary_color)  # This subfunction prints the complementary color of the primary color.
 
