@@ -1,6 +1,6 @@
 # -*- coding: UTF8 -*-
 
-def complementary_color(primary_color):
+def secondary_color(primary_color):
 
   if primary_color == 'red':
     print("The complementary color of",primary_color,'is green!')
@@ -15,9 +15,9 @@ def main():
   
   primary_color = input("Insert primary color (red / blue / yellow): ")
 
-  primary_color = primary_color.lower() # The color wheel is based on the traditional color wheel: https://www.usability.gov/how-to-and-tools/methods/color-basics.html
+  primary_color = primary_color.lower() # The color wheel is based on the traditional RYB color model.
 
-  complementary_color(primary_color)  # This subfunction prints the complementary color of the primary color.
+  secondary_color(primary_color)  # This subfunction prints the secondary color of the primary color.
 
 if __name__ == "__main__":
       main()
