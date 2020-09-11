@@ -3,7 +3,7 @@ Spin the color wheel!
 
 INTRO: https://youtu.be/v9gIj0j7Ba0
 
-This color wheel is based on the traditional RYB color model.
+This color wheel is based on the traditional RYB color model and it is designed for web designers interested in usability.
 
 https://www.usability.gov/how-to-and-tools/methods/color-basics.html
 
